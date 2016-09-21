@@ -6,7 +6,11 @@ download homebrew.
 
 downloading cloc through homebrew...  command - `brew install cloc`
 ##on a pc
-cloc must be downloaded off github or through sourceforge... contributers could add to this section. For now just do it on a mac..
+cloc must be downloaded off github or through sourceforge... 
+
+contributers could add to this section. 
+
+For now just do it on a mac..
 
 
 ##Cool Bash script 
