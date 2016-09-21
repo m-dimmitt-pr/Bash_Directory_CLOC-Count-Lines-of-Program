@@ -24,7 +24,9 @@ for d in ./*/ ; do (cd "$d" && for d in ./*/ ; do (cd "$d" && cloc $(git ls-file
 for d in ./*/ ; do (cd "$d" && ls); done
 
 for d in ./*/ ; do (cd "$d" && !!); done
-
+```
+#Output
+```
 Michaels-MacBook-Pro-2:Parl_Comp zen1$ for d in ./*/ ; do (cd "$d" && !!); done
 for d in ./*/ ; do (cd "$d" && for d in ./*/ ; do (cd "$d" && cloc $(git ls-files)); done); done
        7 text files.
