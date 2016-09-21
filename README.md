@@ -3,6 +3,7 @@ http://stackoverflow.com/questions/4822471/count-number-of-lines-in-a-git-reposi
 http://stackoverflow.com/questions/7470165/how-to-go-to-each-directory-and-execute-a-command
 ##on a mac
 download homebrew.
+
 downloading cloc through homebrew...  command - `brew install cloc`
 ##on a pc
 cloc must be downloaded off github or through sourceforge... contributers could add to this section. For now just do it on a mac..
