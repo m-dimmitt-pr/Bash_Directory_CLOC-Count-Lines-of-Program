@@ -1,12 +1,15 @@
+This information was submitted to "AlDanial/CLOC" 
+and accepted in a condensed fashion as a pull request.
+
 
 http://stackoverflow.com/questions/4822471/count-number-of-lines-in-a-git-repository
 
 http://stackoverflow.com/questions/7470165/how-to-go-to-each-directory-and-execute-a-command
-##on a mac
+## on a mac
 download homebrew.
 
 downloading cloc through homebrew...  command - `brew install cloc`
-##on a pc
+## on a pc
 cloc must be downloaded off github or through sourceforge... 
 
 contributers could add to this section. 
@@ -14,7 +17,7 @@ contributers could add to this section.
 For now just do it on a mac..
 
 
-##Cool Bash script 
+## Cool Bash script 
 
 go through each directory and give the line count for each language and give the line-count-sum for each directory. 
 
@@ -26,7 +29,7 @@ for d in ./*/ ; do (cd "$d" && ls); done
 
 for d in ./*/ ; do (cd "$d" && !!); done
 ```
-#Output
+# Output
 ```
 Michaels-MacBook-Pro-2:Parl_Comp zen1$ for d in ./*/ ; do (cd "$d" && !!); done
 for d in ./*/ ; do (cd "$d" && for d in ./*/ ; do (cd "$d" && cloc $(git ls-files)); done); done
